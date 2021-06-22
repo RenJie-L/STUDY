@@ -1,0 +1,4 @@
+新建文本   @touch xxx.x  
+打开文版   @gedit xxx.x
+
+编译cpp    @g++ xxx.cpp
