@@ -46,5 +46,12 @@ char   *ch;    /* 一个字符型的指针 */
 C++ 不支持在函数外返回局部变量的地址，除非定义局部变量为 static变量。
 &：取址   *：取值。
 
+. 点运算符
+下面的代码把值 zara 赋给对象 emp 的 first_name 成员：
+strcpy(emp.first_name, "zara");
 
-https://www.runoob.com/cplusplus/cpp-references.html·
+-> 箭头运算符
+如果 p_emp 是一个指针，指向类型为 Employee 的对象，则要把值 zara 赋给对象 emp 的 first_name 成员，需要编写如下代码：
+strcpy(p_emp->first_name, "zara");
+
+https://www.runoob.com/cplusplus/cpp-classes-objects.html
