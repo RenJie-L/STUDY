@@ -54,4 +54,10 @@ strcpy(emp.first_name, "zara");
 如果 p_emp 是一个指针，指向类型为 Employee 的对象，则要把值 zara 赋给对象 emp 的 first_name 成员，需要编写如下代码：
 strcpy(p_emp->first_name, "zara");
 
-https://www.runoob.com/cplusplus/cpp-classes-objects.html
+a++是先进行赋值运算，就是b=a，然后a再加1； ++a是先进行自加运算，再进行赋值运算。
+例如： 
+b=3;         a=5;   
+b=a++;       b=5;      
+b=++a;       b=6
+b*a++=3*5;   b*++a=3*6
+
