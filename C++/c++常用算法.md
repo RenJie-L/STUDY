@@ -1,5 +1,5 @@
 ## C++ sort()排序函数
-sort() 函数位于<algorithm>头文件中，因此在使用该函数前，程序中应包含如下语句：`#include <algorithm>`
+sort() 函数位于<algorithm>头文件中，因此在使用该函数前，程序中应包含如下语句：`#include <algorithm>`  
 需要注意的一点是，对于指定区域内值相等的元素，sort() 函数无法保证它们的相对位置不发生改变。  
 `sort (first, last)	`对容器或普通数组中 [first, last) 范围内的元素进行排序，默认进行升序排序。  
 sort() 函数有 2 种用法，其语法格式分别为：  
